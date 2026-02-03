@@ -7,25 +7,75 @@
   <meta name="description" content="自己紹介サイトです。" />
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <!-- CSSファイルの適用 -->
-  
+  <link rel="stylesheet"href="styles.css">
 </head>
 
 <body>
   <div class="page-wrapper">
     <!-- ヘッダー -->
+     <header class="header">
+      <img src="img/logo.png"alt="ロゴ">
+      <nav>
+        <ul>
+          <li><a href="">Profile</a></li>
+          <li><a href="">Articles</a></li>
+        </ul>
+      </nav>
+     </header>
 
     <main class="main-content">
       <!-- メインビジュアル -->
+       <img class="mainvisual"src="img/main_visual.jpg"alt="メインビジュアル">
 
       <!-- プロフィール セクション -->
+       <section class="section"id="profile">
+        <h2 class="section-title">Profile</h2>
+        <div class="profile">
+          <img class="profile-image"src="img/profile.png"alt="プロフィール画像">
+          <div class="profile-text">
+             <h3>お名前お名前</h3>
+             <p>出身：東京<br>
+              趣味：筏づくり、ろうそく絞り、お腹あがり<br>
+              技術：JavaScript ,Go ,CSS,React<br>
+              主な仕事：マネジメント、開発
+              </p>
+          </div>
+        </div>
+       </section>
 
       <!-- 記事 セクション -->
+       <section class="section"id="articles">
+        <h2 class="section-title">Articles</h2>
+        <div class="articles">
+          <div class="article">
+            <img src="img/article.jpg"alt="画像"class="article-image">
+            <h3>記事のタイトル</h3>
+            <p>こんな記事を書きましたこんな記事を書きましたこんな記事を書きましたこんな記事を書きました</p>
+          </div>
+          <div class="article">
+            <img src="img/article.jpg"alt="画像"class="article-image">
+            <h3>記事のタイトル</h3>
+            <p>こんな記事を書きましたこんな記事を書きましたこんな記事を書きましたこんな記事を書きました</p>
+          </div>
+          <div class="article">
+            <img src="img/article.jpg"alt="画像"class="article-image">
+            <h3>記事のタイトル</h3>
+            <p>こんな記事を書きましたこんな記事を書きましたこんな記事を書きましたこんな記事を書きました</p>
+          </div>
+          <div class="article">
+            <img src="img/article.jpg"alt="画像"class="article-image">
+            <h3>記事のタイトル</h3>
+            <p>こんな記事を書きましたこんな記事を書きましたこんな記事を書きましたこんな記事を書きました</p>
+          </div>
+        </div>
+       </section>
 
     </main>
-
+</div>
     <!-- フッター -->
-
-  </div>
+     <footer class="footer">
+      &copy; 2024 Profile
+    </footer>
 </body>
 
 </html>
